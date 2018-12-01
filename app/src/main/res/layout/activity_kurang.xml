@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/android_horizontal_margin"
+    android:paddingTop="@dimen/android_vertical_margin"
+    android:paddingEnd="@dimen/android_horizontal_margin"
+    tools:context=".Kurang">
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/angka_1"
+        android:layout_marginBottom="@dimen/android_vertical_margin"
+        android:maxLength="3"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/angka_2"
+        android:layout_marginBottom="@dimen/android_vertical_margin"
+        android:maxLength="3"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_hitung"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="@dimen/android_vertical_margin"/>
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kurang" />
+
+</LinearLayout>

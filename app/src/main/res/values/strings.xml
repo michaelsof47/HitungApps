@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HitungApps</string>
+    <string name="penjumlahan">Penjumlahan</string>
+    <string name="pengurangan">Pengurangan</string>
+    <string name="perkalian">Perkalian</string>
+    <string name="pembagian">Pembagian</string>
+    <string name="angka_1">Angka 1</string>
+    <string name="angka_2">Angka 2</string>
+    <string name="hasil_hitung">Hasil Hitung</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="kurang">Kurang</string>
+    <string name="kali">Kali</string>
+    <string name="bagi">Bagi</string>
+</resources>
